@@ -1,6 +1,11 @@
+@media only screen and (max-width: 1200px) {
+    .header_text-box {
+        margin-left: 1rem;
+    }
+}
 @media only screen and (max-width: 960px) {
     .header {
-        padding: 0 1rem;
+        padding: 1rem 0 10rem 0;
     }
     /* about */
     .about-flower {
@@ -21,28 +26,29 @@
         display: block;
     }
     .navigation_nav {
+        width: 85%;
+        height: 100vh;
         position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: var(--color-primary);
+        top: 0;
+        right: -100%;
+        background-color: var(--color-primary-light);
         padding: 2rem;
-        display: none;
+        transition: all .2s ease;
     }
     .show-nav {
-        display: block;
+        right: 0;
     }
     .navigation__list {
         flex-direction: column;
     }
     .navigation__link{
-        color: #fff;
+        color: var(--color-primary);
     }
     .navigation__link-btn {
         color: var(--color-primary)
     }
     .navigation__link:hover {
         text-decoration: underline;
-        color: #fff;
     }
     .navigation__link-btn:hover {
         text-decoration: underline;
