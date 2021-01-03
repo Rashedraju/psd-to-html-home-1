@@ -43,7 +43,6 @@ body {
     color: #000;
     text-align: left;
     transition: all 0.3s ease;
-    overflow: hidden;
 }
 h2,
 h3,
@@ -131,8 +130,6 @@ ul {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    right: 0;
-    left: 0;
     z-index: 99999;
     display: flex;
     justify-content: space-between;
@@ -162,7 +159,7 @@ ul {
     display: none;
     cursor: pointer;
     position: relative;
-    transition: all .1s ease;
+    transition: all 0.1s ease;
     z-index: 999999;
 }
 .nav_icon::after {

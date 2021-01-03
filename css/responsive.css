@@ -20,7 +20,6 @@
     /* navigation */
     .navigation {
         padding: 0.2rem 1rem;
-        position: relative;
     }
     .nav_icon {
         display: block;
@@ -28,7 +27,7 @@
     .navigation_nav {
         width: 85%;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -100%;
         background-color: var(--color-primary-light);
